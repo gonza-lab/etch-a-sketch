@@ -1,0 +1,94 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #cb4335;
+}
+
+header {
+  font-family: "Chilanka", cursive;
+  color: #f1c40f;
+  font-size: 3rem;
+  margin: 0.5em 0;
+}
+
+#menu {
+  margin: 1em;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#paper {
+  max-width: 650px;
+  width: 100%;
+  max-height: 650px;
+  height: 100%;
+  border: 2px solid #943126;
+  border-radius: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: white;
+  padding: 0.1em;
+}
+
+button {
+  font-weight: 100;
+  border: 0.5px solid rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  box-shadow: 3px 4px 0px 0px #8a2a21;
+  background: linear-gradient(to bottom, #c62d1f 5%, #f24437 100%);
+  background-color: #c62d1f;
+  border-radius: 18px;
+  border: 1px solid #d02718;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  padding: 7px 25px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #810e05;
+  font-size: 1.2rem;
+  margin-bottom: 1em;
+}
+
+button:hover {
+  background: linear-gradient(to bottom, #f24437 5%, #c62d1f 100%);
+  background-color: #f24437;
+}
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+button:visited,
+button:active,
+button:hover,
+button:focus {
+  outline: none;
+}
+
+button + button {
+  margin-left: 1em;
+}
+
+@media (max-width: 700px){
+  :root{
+    font-size: 12px;
+  }
+}
+
+
