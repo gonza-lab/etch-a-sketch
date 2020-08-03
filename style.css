@@ -91,4 +91,17 @@ button + button {
   }
 }
 
+#color{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pickr > button{
+  margin: 0;
+  margin-left: 0.5em;
+}
+
+
+
 
